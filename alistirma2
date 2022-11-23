@@ -1,0 +1,13 @@
+package tr.edu.medipol.yova;
+
+import org.apache.commons.lang3.StringUtils;
+
+public class temizle {
+
+	public static void main(String[] args) {
+		String sonuc = StringUtils.deleteWhitespace("aaa bb  vvvvv");
+		System.out.println(sonuc);
+
+	}
+
+}
